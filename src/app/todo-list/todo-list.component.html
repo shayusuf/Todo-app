@@ -1,0 +1,10 @@
+<div class="todo_list" *ngIf="yes_no">
+    <h3>Todo List</h3>
+    <mat-list >
+        <mat-list-item *ngFor="let todo of TodoDetails;let i=index"> {{todo.id}}. {{todo.title}} 
+            <button mat-raised-button color="primary" (click) = "deleteTodo(i)">Delete</button></mat-list-item>
+    </mat-list>       
+</div>
+<div class = "todo_list" *ngIf="no_yes">
+    <p>Empyt List</p>
+</div>

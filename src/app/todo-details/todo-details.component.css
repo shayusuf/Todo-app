@@ -1,0 +1,24 @@
+h3{
+        padding:5px;
+    background-color: #283593;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;}
+
+.todo_table{
+        border-collapse: collapse;
+        width: 80%;
+        text-align: center;
+        margin-left: 8em;}
+
+.todo_table td,th {
+        border: 1px solid #ddd;
+        padding: 5px;}
+
+.todo_table tr{background-color: white;}   
+
+.todo_table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #283593;
+        color: white;}

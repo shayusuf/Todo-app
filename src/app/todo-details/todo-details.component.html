@@ -1,0 +1,17 @@
+<div>
+    <h3>Todo Details</h3>
+    <table class = "todo_table">
+        <tr>
+            <th>Id</th>
+            <th>Date</th>
+            <th>Title</th>
+            <th>Description</th>
+        </tr>
+        <tr *ngFor = "let todo of TodoDetails">
+            <td>{{todo.id}}</td>
+            <td>{{todo.date}}</td>
+            <td>{{todo.title}}</td>
+            <td>{{todo.description}}</td>
+        </tr>
+    </table>
+</div>

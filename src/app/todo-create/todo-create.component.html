@@ -1,0 +1,12 @@
+<div class = "entry">
+    <mat-form-field class = "input-form-field">
+      <input matInput placeholder="Add Todo" [(ngModel)] = "title">
+    </mat-form-field><br>
+    <mat-form-field class = "input-form-field">
+      <input matInput placeholder="Add Description" [(ngModel)] = "description">
+    </mat-form-field><br>
+    <mat-form-field class = "input-form-field">
+      <input matInput placeholder="Add Date (dd/mm/yyyy, hr:min)" [(ngModel)] = "date">
+    </mat-form-field><br>
+    <button mat-raised-button color="primary" (click)="addTodo()">ADD</button>
+</div>
